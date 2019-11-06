@@ -132,5 +132,54 @@ table {
 }
 html,
 body {
+  text-align: center;
   height: 100%;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid lightgray;
+}
+header nav a {
+  text-decoration: none;
+  color: coral;
+}
+img {
+  width: 50%;
+  height: 15%;
+  margin: 10% auto;
+}
+.btn {
+  background: white;
+  border: 1px solid black;
+  margin: 5% 0;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.main-section {
+  border: 1px solid black;
+  text-align: left;
+  background-color: lightgray;
+}
+.workhistory {
+  font-size: 1.5rem;
+  margin: 3% 0;
+}
+.work {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 10%;
+  text-align: center;
 }
